@@ -1,0 +1,84 @@
+/*Geral
+style cadastra / entrar
+*/
+
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+
+/* Container */
+
+.container-fluid {
+    background-color: #fff;
+    display: flex;
+}
+
+
+/* Formulário */
+
+.form {
+    background: linear-gradient(90deg, #ffffff 0%, #bcff9c 100%);
+    padding: 20px;
+    margin-left: 0;
+    width: 400px;
+    border-left: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+    border-top: 1px solid #c0c0c0;
+}
+
+.form-info {
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* Lado gradiente */
+
+.lado {
+    background: linear-gradient(90deg, #bcff9c 0%, #424242 100%);
+    padding: 20px;
+    margin-left: 0;
+    width: 1000px;
+    border-right: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+    border-top: 1px solid #c0c0c0;
+    display: flex;
+}
+
+
+/* botão */
+
+.btnForm {
+    background-color: #ffffff;
+    padding: 10px 30px;
+    border: transparent;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.btnForm:hover {
+    background-color: #2f302f;
+    color: #FFF;
+}
+
+
+/* Link voltar para index */
+
+.voltar {
+    background-color: #ffffff;
+    padding: 12px 30px;
+    border: transparent;
+    border-radius: 5px;
+    margin-left: 20%;
+}
+
+form .container a {
+    text-decoration: none;
+}
+
+.voltar:hover {
+    background-color: #2f302f;
+    color: #FFF;
+}
